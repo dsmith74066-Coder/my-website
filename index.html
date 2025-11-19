@@ -1,0 +1,68 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <title>CSS Examples</title>
+
+  <!-- External stylesheet -->
+  <link rel="stylesheet" href="styles.css">
+
+  <!-- Internal styles moved to styles.css -->
+</head>
+<body>
+
+  <h1>CSS Demo Page</h1>
+  <h2>Selectors and Styling</h2>
+
+  <!-- Inline style -->
+  <p style="color: orange; font-size: 24px;">This paragraph uses inline styling.</p>
+
+  <!-- Element and span -->
+  <p>This is a paragraph with a <span>highlighted span</span> inside.</p>
+
+  <!-- Class selector -->
+  <p class="danger">Danger Will Robinson!</p>
+
+  <!-- Multiple classes -->
+  <p class="danger override">This uses both danger and override classes.</p>
+
+  <!-- ID selector -->
+  <div id="disclaimer">
+    <h3>Disclaimer</h3>
+    <p>This block has a red border.</p>
+  </div>
+
+  <!-- Attribute selector -->
+  <form>
+    <input type="text" placeholder="First name">
+    <input type="text" placeholder="Last name">
+  </form>
+
+  <!-- Pseudo-selectors -->
+  <a href="#">Hover over this link</a>
+
+  <!-- Combinators -->
+  <div class="aside">
+    <p>Descendant and child combinator example.</p>
+    <div>
+      <p>Nested paragraph inside div.</p>
+    </div>
+  </div>
+  <p>Adjacent sibling paragraph.</p>
+  <p>General sibling paragraph.</p>
+
+</body>
+</html>
+
+    /* !important override */
+    .override {
+      color: purple !important;
+    }
+
+    /* Custom class for orange paragraph */
+    .orange-paragraph {
+      color: orange;
+      font-size: 24px;
+    }
+  </style>
+  <p class="orange-paragraph">This paragraph uses inline styling.</p>

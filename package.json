@@ -1,0 +1,10 @@
+{
+  "name": "live-update-example",
+  "version": "1.0.0",
+  "scripts": {
+    "start": "live-server --port=5000"
+  },
+  "dependencies": {
+    "live-server": "^1.2.1"
+  }
+}
