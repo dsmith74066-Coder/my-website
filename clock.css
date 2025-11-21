@@ -1,0 +1,38 @@
+.box {
+    position: relative;
+    width: 200px;
+    height: 200px;
+    border: 3px solid hwb(0 1% 95%);
+    border-radius: 5%;
+    margin: 200px auto;
+}*
+
+
+.marker {
+    position: absolute;
+    width: 10px;
+    height: 10px;
+    background: hwb(115 4% 7%);
+    border-radius: 60%;
+    transform-origin: center;
+    animation: pulse 12s infinite;    
+    opacity: 0.3;
+}
+
+@keyframes pulse {
+   0% {opacity:1;}
+   8.3% {opacity: 0.9;}
+   100% {opacity: 0.3;}
+}
+.marker1  { top: 0; left: 95px; animation-delay: 0s; }
+.marker2  { top: 25px; left: 150px; animation-delay: 1s; }
+.marker3  { top: 75px; left: 190px; animation-delay: 2s;}
+.marker4  { top: 130px; left: 150px; animation-delay: 3s; }
+.marker5  { top: 170px; left: 95px; animation-delay: 4s; }
+.marker6  { top: 130px; left: 40px; animation-delay: 5s; }
+.marker7  { top: 75px; left: 10px; animation-delay: 6s; }
+.marker8  { top: 25px; left: 40px; animation-delay: 7s; }
+.marker9  { top: 0; left: 95px; animation-delay: 8s; }
+.marker10 { top: 25px; left: 150px; animation-delay: 9s; }
+.marker11 { top: 75px; left: 180px; animation-delay: 10s; }
+.marker12 { top: 130px; left: 150px; animation-delay: 11s; }
